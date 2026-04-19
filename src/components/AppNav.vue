@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"
-        ><img src="./media/logo_nav.png" alt="John Smith logo" class="logo"
+        ><img src="../assets/logo.png" alt="John Smith logo" class="logo"
       /></a>
       <button
         class="navbar-toggler"
