@@ -16,8 +16,8 @@
         <div class="d-flex flex-column justify-content-center">
           <i class="fa-solid fa-envelope mb-3"></i>
           <p>Email me:</p>
-          <a href="mailto:nandor.bottyan@gmail.com" class="fw-semibold"
-            >nandor.bottyan@gmail.com</a
+          <a href="mailto:johnsmith@gmail.com" class="fw-semibold"
+            >johnsmith@gmail.com</a
           >
         </div>
       </div>
@@ -30,7 +30,7 @@
         <div class="d-flex flex-column justify-content-center">
           <i class="fa-solid fa-phone mb-3"></i>
           <p>Call me:</p>
-          <p class="fw-semibold">+436704078150</p>
+          <p class="fw-semibold">+1234567890</p>
         </div>
       </div>
       <div
@@ -43,10 +43,10 @@
           <i class="fa-brands fa-linkedin mb-3"></i>
           <p>Find me on LinkedIn:</p>
           <a
-            href="https://www.linkedin.com/in/nandor-bottyan/"
+            href="https://www.linkedin.com/in/john-smith/"
             target="_blank"
             class="fw-semibold"
-            >/nandor-bottyan</a
+            >/john-smith</a
           >
         </div>
       </div>

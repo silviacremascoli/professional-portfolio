@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <AppNav />
-    <router-link to="/blog">Blog</router-link>
     <AppScrollTopButton />
     <AppHero />
     <AppSkills />
@@ -9,8 +8,7 @@
     <AppProjects />
     <AppContact />
     <AppFooter />
-
-    <router-view />
+    <router-view></router-view>
   </div>
 </template>
 

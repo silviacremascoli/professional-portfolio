@@ -2,27 +2,24 @@
   <footer>
     <div class="social-links pb-4 d-flex justify-content-center">
       <a
-        href="https://www.linkedin.com/in/nandor-bottyan/"
+        href="https://www.linkedin.com/in/john-smith/"
         target="_blank"
-        title="LinkedIn Nandor Bottyan"
+        title="LinkedIn John Smith"
         ><i class="fa-brands fa-linkedin"></i
       ></a>
       <a
-        href="https://github.com/NandorBottyanBocan"
+        href="https://github.com/johnsmith"
         target="_blank"
-        title="GitHub Nandor Bottyan"
+        title="GitHub John Smith"
         ><i class="fa-brands fa-github"></i
       ></a>
-      <a
-        href="https://youtube.com"
-        target="_blank"
-        title="Youtube Nandor Bottyan"
+      <a href="https://youtube.com" target="_blank" title="Youtube John Smith"
         ><i class="fa-brands fa-youtube"></i
       ></a>
       <a
         href="https://drive.google.com/file/d/1lcpjhCugvGs7G4qIBis6Uv1gtVaqoWjo/view?usp=drive_link"
         target="_blank"
-        title="Resume Nandor Bottyan"
+        title="Resume John Smith"
         ><i class="fa-solid fa-file"></i
       ></a>
     </div>

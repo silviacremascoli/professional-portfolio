@@ -1,7 +1,7 @@
 <template>
   <ParticlesBg />
   <header class="header">
-    <h1 class="my-name">Nándor Bottyán</h1>
+    <h1 class="my-name">John Smith</h1>
     <h2>
       <span class="my-role">{{ typingValue }}</span>
       <span class="blinking-cursor">|</span>
