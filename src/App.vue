@@ -2,24 +2,16 @@
   <div id="app">
     <AppNav />
     <AppScrollTopButton />
-    <AppHero />
-    <AppSkills />
-    <AppAbout />
-    <AppProjects />
-    <AppContact />
+    <main class="main-content">
+      <router-view></router-view>
+    </main>
     <AppFooter />
-    <router-view></router-view>
   </div>
 </template>
 
 <script lang="ts">
 import AppNav from "./components/AppNav.vue";
 import AppScrollTopButton from "./components/AppScrollTopButton.vue";
-import AppHero from "./components/AppHero.vue";
-import AppSkills from "./components/AppSkills.vue";
-import AppAbout from "./components/AppAbout.vue";
-import AppProjects from "./components/AppProjects.vue";
-import AppContact from "./components/AppContact.vue";
 import AppFooter from "./components/AppFooter.vue";
 
 export default {
@@ -27,14 +19,24 @@ export default {
   components: {
     AppNav,
     AppScrollTopButton,
-    AppHero,
-    AppSkills,
-    AppAbout,
-    AppProjects,
-    AppContact,
     AppFooter,
   },
 };
 </script>
 
-<style></style>
+<style lang="scss">
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1 0 auto;
+}
+</style>

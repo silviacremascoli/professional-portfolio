@@ -39,6 +39,7 @@ footer {
   letter-spacing: rem(1);
   font-weight: $light-bold;
   max-width: 100%;
+  flex-shrink: 0;
 
   a {
     color: $secondary-color;

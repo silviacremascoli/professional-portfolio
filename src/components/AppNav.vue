@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"
-        ><img src="../assets/logo.png" alt="John Smith logo" class="logo"
+        ><img src="../assets/john-smith-logo.png" alt="John Smith logo" class="logo"
       /></a>
       <button
         class="navbar-toggler"
@@ -17,10 +17,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto nav-underline">
-          <a class="nav-link home-link" aria-current="page" href="#">Home</a>
+          <router-link class="nav-link home-link" aria-current="page" to="/">Home</router-link>
           <a class="nav-link" href="#skills">Expertise</a>
           <a class="nav-link" href="#about-me">About me</a>
-          <router-link to="/blog">Blog</router-link>
+          <router-link class="nav-link" to="/blog">Blog</router-link>
           <a class="nav-link" href="#projects">My Projects</a>
           <a class="nav-link contact" href="#contact">Contact me</a>
         </div>
@@ -33,6 +33,8 @@
 nav {
   background: $secondary-color;
   max-width: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
 
   &.navbar {
     padding: 4px 20px;
@@ -53,8 +55,12 @@ nav {
       transition: all 400ms ease-in-out;
 
       @include media-breakpoint-up(lg) {
-        transform: scale(1.1);
+        transform: scale(1.05);
       }
+    }
+
+    &:focus, &:active {
+      color: $tertiary-color;
     }
 
     &.home-link {
