@@ -129,7 +129,7 @@ export default {
 .contact-section {
   background: $secondary-color;
   max-width: 100%;
-  padding: rem(30) 0 0 0;
+  padding: pxToRem(30) 0 0 0;
 
   h2 {
     font-size: $h2-font-size;
@@ -139,7 +139,7 @@ export default {
 
   .contact-text {
     @include media-breakpoint-down(lg) {
-      padding: rem(10) rem(40);
+      padding: pxToRem(10) pxToRem(40);
     }
   }
 
@@ -149,7 +149,7 @@ export default {
 
   .form,
   .contact-options {
-    padding: rem(30) rem(60);
+    padding: pxToRem(30) pxToRem(60);
   }
 
   .contact-options {
@@ -159,37 +159,37 @@ export default {
       background: $primary-color;
       border-radius: $standard-border-radius;
       width: 100%;
-      margin-bottom: rem(20);
-      padding: rem(25);
+      margin-bottom: pxToRem(20);
+      padding: pxToRem(25);
 
       @include media-breakpoint-up(sm) {
         width: 75%;
-        margin-bottom: rem(20);
+        margin-bottom: pxToRem(20);
       }
 
       @include media-breakpoint-up(lg) {
         width: 25%;
-        margin: 0 rem(30);
+        margin: 0 pxToRem(30);
       }
 
       i {
         color: $tertiary-color;
-        font-size: rem(36);
+        font-size: pxToRem(36);
       }
 
       p {
         margin-bottom: 0;
-        font-size: rem(18);
+        font-size: pxToRem(18);
       }
 
       a {
         color: $white;
-        font-size: rem(16);
+        font-size: pxToRem(16);
         text-decoration: none;
         transition: all 300ms ease-in-out;
 
         @include media-breakpoint-up(sm) {
-          font-size: rem(18);
+          font-size: pxToRem(18);
         }
 
         &:hover {
@@ -200,7 +200,7 @@ export default {
   }
 
   h3 {
-    font-size: rem(28);
+    font-size: pxToRem(28);
     font-weight: $semi-bold;
   }
 
@@ -209,11 +209,11 @@ export default {
     padding: 0;
 
     @include media-breakpoint-up(sm) {
-      padding: 0 rem(50);
+      padding: 0 pxToRem(50);
     }
 
     @include media-breakpoint-up(lg) {
-      padding: 0 rem(200);
+      padding: 0 pxToRem(200);
     }
 
     input,
@@ -221,8 +221,8 @@ export default {
       background: $primary-color;
       border: none;
       color: $white;
-      padding: rem(20) rem(35);
-      font-size: rem(18);
+      padding: pxToRem(20) pxToRem(35);
+      font-size: pxToRem(18);
       border-radius: $standard-border-radius;
 
       &::placeholder {
@@ -233,10 +233,10 @@ export default {
 
     .btn-main {
       background: $tertiary-color;
-      font-size: rem(18);
+      font-size: pxToRem(18);
       color: $white;
       border-radius: $standard-border-radius;
-      padding: rem(10) rem(20);
+      padding: pxToRem(10) pxToRem(20);
       transition: all 500ms ease-in-out;
 
       &:hover {

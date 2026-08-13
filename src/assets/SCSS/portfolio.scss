@@ -1,29 +1,30 @@
-@import "./bootstrap-5.3.2/scss/bootstrap.scss";
-@import "./bootstrap-5.3.2/scss/mixins/breakpoints";
+@forward "bootstrap/scss/bootstrap";
+@forward "mixins";
+@use "bootstrap/scss/bootstrap" as *;
+@use "mixins" as *;
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400;500;600;700;800;900&display=swap");
-@import "mixins";
 
 //colours
-$primary-color: #24263b;
-$secondary-color: #1f2235;
-$tertiary-color: #ff4a57;
-$white: #fefefe;
+$primary-color: #24263b !default;
+$secondary-color: #1f2235 !default;
+$tertiary-color: #ff4a57 !default;
+$white: #fefefe !default;
 
 //fonts
-$main-font: "Poppins", sans-serif;
-$heading-font: "Tektur", cursive;
+$main-font: "Poppins", sans-serif !default;
+$heading-font: "Tektur", cursive !default;
 
 //font weights
-$bold: 700;
-$semi-bold: 600;
-$light-bold: 500;
+$bold: 700 !default;
+$semi-bold: 600 !default;
+$light-bold: 500 !default;
 
 //borders
-$standard-border-radius: rem(12);
-$round-border-radius: 50%;
+$standard-border-radius: pxToRem(12) !default;
+$round-border-radius: 50% !default;
 
 //headings
-$h2-font-size: rem(48);
+$h2-font-size: pxToRem(48) !default;
 
 * {
   box-sizing: border-box;
@@ -37,8 +38,8 @@ body {
   text-align: center;
   color: white;
   background-color: $primary-color;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;

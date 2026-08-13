@@ -35,8 +35,8 @@
 footer {
   color: $white;
   background: $tertiary-color;
-  padding: rem(25) 0;
-  letter-spacing: rem(1);
+  padding: pxToRem(25) 0;
+  letter-spacing: pxToRem(1);
   font-weight: $light-bold;
   max-width: 100%;
   flex-shrink: 0;
@@ -56,11 +56,11 @@ footer {
   }
 
   .social-links a {
-    margin: 0 rem(15);
+    margin: 0 pxToRem(15);
     color: $tertiary-color;
     background: $secondary-color;
-    padding: rem(10) rem(16);
-    font-size: rem(18);
+    padding: pxToRem(10) pxToRem(16);
+    font-size: pxToRem(18);
     border-radius: $round-border-radius;
     transition: all 500ms ease-in-out;
 

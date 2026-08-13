@@ -79,15 +79,15 @@ export default {
   max-width: 100%;
 
   .description {
-    padding: rem(40) rem(40) rem(20) rem(40);
+    padding: pxToRem(40) pxToRem(40) pxToRem(20) pxToRem(40);
     text-align: center;
 
     @include media-breakpoint-up(sm) {
-      padding: rem(60) 0 rem(30) 0;
+      padding: pxToRem(60) 0 pxToRem(30) 0;
     }
 
     @include media-breakpoint-up(lg) {
-      padding: rem(60) rem(60) rem(40) rem(60);
+      padding: pxToRem(60) pxToRem(60) pxToRem(40) pxToRem(60);
       text-align: justify;
     }
 
@@ -99,16 +99,16 @@ export default {
   }
 
   video {
-    max-width: rem(300);
-    padding: 0 0 rem(20) 0;
+    max-width: pxToRem(300);
+    padding: 0 0 pxToRem(20) 0;
 
     @include media-breakpoint-up(sm) {
-      padding: rem(30) 0 rem(40) 0;
-      max-width: rem(500);
+      padding: pxToRem(30) 0 pxToRem(40) 0;
+      max-width: pxToRem(500);
     }
 
     @include media-breakpoint-up(lg) {
-      padding-top: rem(40);
+      padding-top: pxToRem(40);
     }
   }
 
@@ -120,40 +120,40 @@ export default {
       opacity: 0;
 
       &.floating-cloud-1 {
-        top: rem(3610);
-        max-width: rem(50);
+        top: pxToRem(3610);
+        max-width: pxToRem(50);
         animation-duration: 20s;
         animation-delay: 4s;
 
         @include media-breakpoint-up(lg) {
-          top: rem(2000);
-          max-width: rem(70);
+          top: pxToRem(2000);
+          max-width: pxToRem(70);
           -webkit-animation: cloud-1 35s linear 6s infinite;
           animation: cloud-1 35s linear 6s infinite;
         }
       }
 
       &.floating-cloud-2 {
-        top: rem(3220);
+        top: pxToRem(3220);
         animation-duration: 20s;
         animation-delay: 2s;
 
         @include media-breakpoint-up(lg) {
-          top: rem(1800);
-          max-width: rem(50);
+          top: pxToRem(1800);
+          max-width: pxToRem(50);
           -webkit-animation: cloud-2 25s linear 4s infinite;
           animation: cloud-2 25s linear 6s infinite;
         }
       }
 
       &.floating-cloud-3 {
-        top: rem(4010);
+        top: pxToRem(4010);
         animation-duration: 20s;
         animation-delay: 6s;
 
         @include media-breakpoint-up(lg) {
-          top: rem(2150);
-          max-width: rem(60);
+          top: pxToRem(2150);
+          max-width: pxToRem(60);
           -webkit-animation: cloud-3 30s linear 8s infinite;
           animation: cloud-3 30s linear 6s infinite;
         }
@@ -175,17 +175,17 @@ export default {
       10% {
         opacity: 0.3;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-        right: rem(200);
+        right: pxToRem(200);
       }
       90% {
         opacity: 0.3;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-        right: rem(1100);
+        right: pxToRem(1100);
       }
       100% {
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        right: rem(1200);
+        right: pxToRem(1200);
       }
     }
 
@@ -198,17 +198,17 @@ export default {
       10% {
         opacity: 0.4;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-        right: rem(200);
+        right: pxToRem(200);
       }
       90% {
         opacity: 0.4;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-        right: rem(1100);
+        right: pxToRem(1100);
       }
       100% {
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        right: rem(1200);
+        right: pxToRem(1200);
       }
     }
 
@@ -221,17 +221,17 @@ export default {
       10% {
         opacity: 0.2;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-        right: rem(200);
+        right: pxToRem(200);
       }
       90% {
         opacity: 0.2;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-        right: rem(1100);
+        right: pxToRem(1100);
       }
       100% {
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        right: rem(1200);
+        right: pxToRem(1200);
       }
     }
   }

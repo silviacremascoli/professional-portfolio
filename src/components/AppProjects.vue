@@ -111,11 +111,11 @@ export default {
 .projects-section {
   background: $tertiary-color;
   max-width: 100%;
-  padding: rem(40) 0 0 0;
+  padding: pxToRem(40) 0 0 0;
 
   @include media-breakpoint-down(sm) {
     .projects-text {
-      padding: 0 rem(40);
+      padding: 0 pxToRem(40);
     }
   }
 
@@ -131,14 +131,14 @@ export default {
 
   .container-projects {
     background: $primary-color;
-    max-width: rem(1200);
-    margin: 0 rem(20) rem(40) rem(20);
-    padding: rem(15);
+    max-width: pxToRem(1200);
+    margin: 0 pxToRem(20) pxToRem(40) pxToRem(20);
+    padding: pxToRem(15);
     border-radius: $standard-border-radius;
 
     @include media-breakpoint-up(lg) {
-      margin: 0 auto rem(50) auto;
-      padding: rem(30);
+      margin: 0 auto pxToRem(50) auto;
+      padding: pxToRem(30);
     }
 
     .embed {
@@ -149,8 +149,8 @@ export default {
 
     .project-caption {
       background: $primary-color;
-      padding: rem(15);
-      border-radius: rem(8);
+      padding: pxToRem(15);
+      border-radius: pxToRem(8);
     }
   }
 

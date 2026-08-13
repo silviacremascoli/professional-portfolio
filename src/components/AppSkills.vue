@@ -147,7 +147,7 @@ export default {
   background: $tertiary-color;
   color: $white;
   max-width: 100%;
-  padding: rem(40) 0 0 0;
+  padding: pxToRem(40) 0 0 0;
 
   h2 {
     font-size: $h2-font-size;
@@ -163,7 +163,7 @@ export default {
     margin: 0 auto;
 
     .col-lg-4 {
-      margin-bottom: rem(15);
+      margin-bottom: pxToRem(15);
 
       .skill {
         display: flex;
@@ -171,14 +171,14 @@ export default {
         justify-content: center;
         background: $primary-color;
         border-radius: $standard-border-radius;
-        border: rem(1) solid $primary-color;
-        padding: rem(40);
-        margin-top: rem(10);
+        border: pxToRem(1) solid $primary-color;
+        padding: pxToRem(40);
+        margin-top: pxToRem(10);
         transition: all 400ms ease-in;
 
         &:hover {
           background: $tertiary-color;
-          border: rem(2) solid $primary-color;
+          border: pxToRem(2) solid $primary-color;
           color: $primary-color;
           cursor: default;
 
@@ -189,13 +189,13 @@ export default {
         }
 
         i {
-          font-size: rem(36);
+          font-size: pxToRem(36);
           color: $tertiary-color;
           transition: transform 2s ease-in-out;
         }
 
         h3 {
-          font-size: rem(24);
+          font-size: pxToRem(24);
           font-weight: $bold;
           font-family: $heading-font;
         }

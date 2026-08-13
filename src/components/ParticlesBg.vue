@@ -5,6 +5,10 @@
       :particlesInit="particlesInit"
       :particlesLoaded="particlesLoaded"
       :options="{
+        fullScreen: {
+          enable: true,
+          zIndex: -1
+        },
         background: {
           color: {
             value: '#24263b',
@@ -107,11 +111,11 @@ const particlesLoaded = async (container) => {
 }
 
 #particles-js {
-  max-width: 100%;
-  max-height: 100%;
   position: absolute;
-  z-index: -10;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
 }
 </style>
